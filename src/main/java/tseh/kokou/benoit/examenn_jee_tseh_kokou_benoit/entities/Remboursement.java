@@ -16,7 +16,7 @@ import java.util.Date;
 
 public class Remboursement {
     @Id @GeneratedValue(strategy = GenerationType.UUID)
-    private String nom;
+    private String id;
     private Date datePaiement;
     private double montant;
     private Type type;
